@@ -8,9 +8,9 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = {"pretty", "html:target/cucumber-reports/cucumber-reports.html",
-				"json:target/cucumber-reports/Cucumber.json",
-				"junit:target/cucumber-reports/Cucumber.xml"},
+		plugin = {"pretty", "html:cucumber-reports/cucumber-reports.html",
+				"json:cucumber-reports/Cucumber.json",
+				"junit:cucumber-reports/Cucumber.xml"},
 		glue = "StepDefinitions", 
                 features = "src/test/java/features", 
                 dryRun = false, 

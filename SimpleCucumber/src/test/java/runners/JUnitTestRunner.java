@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @CucumberOptions(
 		plugin = {"pretty", "html:cucumber-reports/cucumber-reports.html",
 				"json:cucumber-reports/Cucumber.json",
-				"junit:cucumber-reports/Cucumber.xml"},
+				"junit:cucumber-reports/Cucumber.xml",
+				"com.cucumber.listener.ExtentCucumberFormatter:cucumber-reports/Extent_report.html"},
 		glue = "StepDefinitions", 
                 features = "src/test/java/features", 
                 dryRun = false, 

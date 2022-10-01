@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
                 features = "src/test/java/features", 
                 dryRun = false, 
                 monochrome = true, 
-                tags ="@basic")
+                tags = "@basic, @first, @second")
 public class JUnitTestRunner {
 
 }

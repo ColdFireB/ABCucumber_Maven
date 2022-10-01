@@ -17,16 +17,17 @@
 ## (Comments)
 #Sample Feature Definition Template
 
-@basic
+@basic @feature
 Feature: Testing the tags and everthing to run properly 
   Description: I want to use this as first step
 
+  @first
   Scenario: Title of scenario1
     Given Enter input condition
     When I do action
     Then I get Result
     
-    
+  @second
   Scenario Outline: Title of scenario2
     Given I want to write a step with "<name>"
     When I check for the "<value>" in step

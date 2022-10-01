@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.332">
-    <testcase classname="Testing the tags and everthing to run properly" name="Title of scenario1" time="0.105">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.86">
+    <testcase classname="Testing the tags and everthing to run properly" name="Title of scenario1" time="0.067">
         <system-out><![CDATA[Given Enter input condition.................................................passed
 When I do action............................................................passed
 Then I get Result...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing the tags and everthing to run properly" name="Title of scenario2" time="0.022">
+        <system-out><![CDATA[Given I want to write a step with "name1"...................................passed
+When I check for the "5" in step............................................passed
+Then I verify the "success" in step.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing the tags and everthing to run properly" name="Title of scenario2 2" time="0.006">
+        <system-out><![CDATA[Given I want to write a step with "name2"...................................passed
+When I check for the "7" in step............................................passed
+Then I verify the "Fail" in step............................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

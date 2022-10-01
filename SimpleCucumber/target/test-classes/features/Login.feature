@@ -17,10 +17,10 @@
 ## (Comments)
 #Sample Feature Definition Template
 
+@basic
 Feature: Testing the tags and everthing to run properly 
   Description: I want to use this as first step
 
-@basic
   Scenario: Title of scenario1
     Given Enter input condition
     When I do action

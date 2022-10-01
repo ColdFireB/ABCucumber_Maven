@@ -8,13 +8,14 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-//{"pretty","html:target/cucumber-reports.html"},
-plugin = ("json:target/cucumber-reports/CucumberTestReport.json"),
-				glue = "StepDefinitions", 
+		plugin = {"pretty", "html:target/cucumber-reports/cucumber-reports.html",
+				"json:target/cucumber-reports/Cucumber.json",
+				"junit:target/cucumber-reports/Cucumber.xml"},
+		glue = "StepDefinitions", 
                 features = "src/test/java/features", 
                 dryRun = false, 
                 monochrome = true, 
-                tags ="@basic, @run")
+                tags ="@basic")
 public class JUnitTestRunner {
 
 }

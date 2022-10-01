@@ -14,7 +14,7 @@ plugin = ("json:target/cucumber-reports/CucumberTestReport.json"),
                 features = "src/test/java/features", 
                 dryRun = false, 
                 monochrome = true, 
-                tags ="@basic")
+                tags ="@basic, @run")
 public class JUnitTestRunner {
 
 }
